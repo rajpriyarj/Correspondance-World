@@ -1,0 +1,45 @@
+.head-logo{
+	width:99.40% ;
+    color: whitesmoke;
+	margin-left: 5px ;
+	height: 100px;
+	  box-shadow: 0 4px 8px ;
+	font-size: 60px;
+	    -webkit-animation: mymove 5s infinite;  
+	       animation: mymove 5s infinite;
+}
+
+@-webkit-keyframes mymove {
+    from {background-color:#4a0a9e;}
+    to {background-color: #f8208f;
+
+}
+@keyframes mymove {
+    from {background-color:#4a0a9e;}
+    to {background-color:#f8208f;}
+}
+
+#cc{
+	text-align:center ;
+	text-transform:uppercase ;
+	font-style:comic sans;
+	font-family: 'Kalam', cursive;
+	font-style: normal;
+	font-size: 60px;
+	margin: 10px;
+	padding: 10px;
+	font-variant: normal;
+	color: white ;
+}
+.head-logo span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 100px;
+}
+
+.head-logo img{
+	display: inline-block;
+	vertical-align: middle;
+	height: 58px ;
+	width: 58px ;
+}
