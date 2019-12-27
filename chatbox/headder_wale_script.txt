@@ -1,0 +1,7 @@
+<li><a href="#" >Chat Box</a>
+                    <ul>
+                        <form action="/ncw/webchat/home.php" method="post">
+                        <li><input type="text" placeholder="Chat With" name="cwn"></li>
+                        <input type="Submit" name="sum">    
+                        </form>
+                    </ul>
