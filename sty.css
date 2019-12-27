@@ -1,0 +1,263 @@
+body{
+    background:white;
+	padding: 0;
+    font-family: sans-serif;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 80vh;
+}
+
+.container{
+
+	height: 50%;
+	border: 1px solid black;
+	color:white;
+	background: black;
+	
+	
+
+}
+h1{
+	margin: 0;
+	padding-top: 3%;
+	font-weight: 90;
+	font-family: serif;
+	font-size: 500%;
+	text-align: center;
+}
+.container p{
+	font-size: 2em;
+	float: right;
+	left: -5%;
+	top: -10%;
+	position:relative;
+	
+	
+}
+
+
+header{
+    position: absolute;
+    top: 30%;
+	
+    left:2% ;
+
+    padding: 0 100px;
+	background: black;
+    width: 96%;
+    box-sizing: border-box;;
+}
+header .logo{
+   
+    height: 50px;
+    line-height: 50px;
+   display: inline-block;
+	vertical-align: middle;
+	height: 58px ;
+	width: 58px ;
+    float: left;
+    font-weight: bold;
+
+}
+
+header nav{
+    float: right;
+	z-index: 3;
+
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    position: relative;
+   
+}
+
+header nav ul li ul{
+    position: absolute;
+    left: 0;
+    background: #333;
+    display: none;
+}
+
+header nav ul li a{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+color: #fff;
+text-decoration: none;
+display: block;
+}
+header nav ul li a:hover,header nav ul li a.active{
+    color: #fff;
+    background: #2196f3;
+
+}
+
+header nav ul li ul li{
+    display: block;
+    width: 200px;
+
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li:hover ul {
+   display: block;
+}
+header nav ul li.sub-menu:before
+{
+    content: '\f0d7';
+    font-family: fontAwesome;
+    position: absolute;
+    line-height: 50px;
+    color: #fff;
+    right: 5px;
+
+}
+header nav ul li.sub-menu:after{
+    content: '\f0d8';
+}
+.menu-toggle{
+    color: #fff;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+@media(max-width: 786px){
+
+    header{
+        padding: 0 20px;
+
+    }
+    .menu-toggle{
+        display: block;
+    }
+    header nav{
+      
+       position: absolute;
+       width: 100%;
+       height: calc(100vh - 50px);
+       background: #333;
+       top: 50px;
+       left:0px;
+       transition: 0.5s;
+    }
+    header nav.active{
+        display: none;
+    }
+    header nav ul{
+        display:block;
+        text-align: center;
+    }
+    header nav ul li a{
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+    header nav ul li:hover ul{
+        position: relative;
+         background: #003e6f;
+    }
+  .      header nav ul li ul li{
+            width: 100%;
+        }
+}
+.btnn{
+	border:  1px solid black;
+	top: 10%;
+	width: 50%;
+	
+	margin-bottom: 20%;
+	height: 20%;
+	left: 12%;
+	text-align: center;
+	position: relative;
+	box-shadow: 2px 3px  30px black;
+}
+.btnn li  {
+	list-style: none;
+	text-align: center;
+	font-size: 154%;
+	color: black;
+	
+}
+.btnn li a{
+	text-decoration: none;
+	color: black;
+	
+}
+.bxx{
+	border: 5px solid black;
+	position: relative;
+	float: right;
+	background: black;
+	border-radius: 9%;
+	width: 100%;
+	height: 90%;
+	box-shadow: 4px 2px 10px black;
+
+}
+#two{
+	display: none;
+}
+	
+
+
+.bxx img{
+	width:30%;
+	height: 50%;
+	position: relative;
+	top:20%;
+	float: left;
+	border-radius: 50%;
+	border:5px solid white;
+}
+ .inf{
+	
+	color: beige;
+width:68%;
+	 float: right;
+	position: relative;
+
+}
+.infn{
+	color: aliceblue;
+}
+ .bxx h3{
+	position: relative;
+	 padding:3%;
+	color: aliceblue;
+	
+	
+}
+
+
+#onee h3{
+	color: aliceblue;
+	position: relative;
+}
+#footer{
+	position: relative;
+	width:99.40% ;
+	margin-top: 10%;
+	background-color: #d9d9d9 ;
+	border-radius: 1em ;
+	float: left ;
+	border: 4px #e6e6e6 solid ;
+	margin-left: 0px ;
+}
+img{
+	display:inline-block ;
+	vertical-align: middle;
+	height: 10% ;
+	width:  10% ;
+}
+span{
+	display: inline-block ;
+	vertical-align: middle;
+}

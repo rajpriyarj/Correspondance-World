@@ -1,0 +1,36 @@
+.box{
+	width: 70%;
+	left: 15%;
+	top: 5%;
+	position: absolute;
+	align-content: center;
+	 border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+.nav{
+	text-align: center;
+}
+
+.div1 {
+    text-align: left;
+    font-size: 20px;
+
+}
+
+.div2 {
+   text-align: center;
+   font-size: 25px;
+}
+
+.div3 {
+    text-align: left;
+    font-size: 20px;
+
+}
+
+   .logo1{
+  align-items: center;
+  width: 180px;
+    height: 120px;
+   }

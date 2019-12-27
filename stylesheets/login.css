@@ -1,0 +1,45 @@
+
+body{
+	margin: 0px;
+	background: linear-gradient( #1142c9,#f38158);
+}
+#logbtn{
+	min-height: 29em ;
+}
+
+table{
+	width:100% ;
+	padding: 11.8% ;
+}
+
+input{
+	width: 40% ;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 0px;
+}
+
+button{
+	border: none ;
+	border-radius: 10px ;
+	width:25% ;
+	background-color:#002b80 ;
+	color: #ffffff ;
+}
+
+
+}
+button:hover{ 
+	box-shadow: 0px 0px 10px  #002b80 ;	
+}
+
+.logdiv{
+	padding: 1% ;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
